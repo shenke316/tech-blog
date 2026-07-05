@@ -1,0 +1,10 @@
+baseURL = "https://team.github.io/tech-blog/"
+languageCode = "zh-cn"
+title = "Tech Blog"
+theme = "PaperMod"
+
+[params]
+  author = "Team"
+
+[frontmatter]
+  date = ["date", ":filename", ":default"]
